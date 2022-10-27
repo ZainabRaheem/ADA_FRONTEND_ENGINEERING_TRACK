@@ -1,5 +1,7 @@
 body {
-  background-image: url(./images/background-2.webp);
+  background-image: url(/images/form-background3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: cursive;
 }
 
@@ -50,4 +52,63 @@ header {
   padding: 1.5rem;
   color: #002855;
   font-weight: 700;
+}
+
+/* .details-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+.details-form {
+  max-width: 300px;
+  margin: 8rem auto;
+  background-image: url(/images/form-background2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1rem;
+}
+
+.details {
+  color: #002855;
+  font-size: 17px;
+  /* background-color: red; */
+}
+
+.label {
+  color: #002855;
+}
+
+.input-box {
+  background-color: #c6d3de;
+  border: 1px solid #c6d3de;
+  padding: 0.5rem;
+  width: 100%;
+}
+::placeholder {
+  color: #ffffff;
+  font-size: 14px;
+}
+.input-box:focus {
+  outline: none;
+}
+
+.button {
+  padding: 2rem 1rem 0 1rem;
+}
+
+.submit-button {
+  border: 0;
+  padding: 1rem;
+  border-radius: 70px;
+  /* background-color: #c6d3de; */
+  color: #002855;
+  font-size: 18px;
+  font-weight: 700;
+  width: 100%;
+  cursor: pointer;
+}
+.submit-button:hover {
+  background-color: #c6d3de;
 }
