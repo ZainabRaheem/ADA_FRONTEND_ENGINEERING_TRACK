@@ -63,7 +63,7 @@ header {
 
 .details-form {
   max-width: 300px;
-  margin: 7rem auto;
+  margin: 2.8rem auto;
   background-image: url(/images/form-background2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -80,6 +80,10 @@ header {
 }
 
 .details.phone {
+  color: #eaaa00;
+}
+
+.details.hobbies {
   color: #eaaa00;
 }
 
@@ -106,7 +110,7 @@ header {
   padding: 1rem;
   border-radius: 70px;
   text-decoration: none;
-  color: #eaaa00;
+  color: #002855;
   font-size: 18px;
   font-weight: 700;
   width: 100%;
