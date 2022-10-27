@@ -119,12 +119,18 @@ header {
 }
 
 .footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
   color: #002855;
   font-weight: 900;
   font-style: italic;
 }
 
 .footer-link {
+  padding: 0.2rem 1rem;
   text-decoration: none;
-  color: #002855;
+  color: rgb(98, 61, 146);
+  background-color: #ffffff;
 }
