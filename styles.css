@@ -63,7 +63,7 @@ header {
 
 .details-form {
   max-width: 300px;
-  margin: 8rem auto;
+  margin: 7rem auto;
   background-image: url(/images/form-background2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -76,8 +76,12 @@ header {
   /* background-color: red; */
 }
 
-.label {
-  color: #002855;
+.details.name {
+  color: #eaaa00;
+}
+
+.details.phone {
+  color: #eaaa00;
 }
 
 .input-box {
@@ -102,8 +106,8 @@ header {
   border: 0;
   padding: 1rem;
   border-radius: 70px;
-  /* background-color: #c6d3de; */
-  color: #002855;
+  text-decoration: none;
+  color: #eaaa00;
   font-size: 18px;
   font-weight: 700;
   width: 100%;
@@ -111,4 +115,16 @@ header {
 }
 .submit-button:hover {
   background-color: #c6d3de;
+  font-size: 20px;
+}
+
+.footer {
+  color: #002855;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #002855;
 }
