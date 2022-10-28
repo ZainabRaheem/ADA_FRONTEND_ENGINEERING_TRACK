@@ -1,0 +1,171 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="LMS Task" />
+    <meta name="keywords" content="HTML, CSS, Forms" />
+    <meta name="author" content="Raheem Zainab" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms Task</title>
+    <link rel="icon" type="" href="/images/My Logo3.png" />
+    <link rel="stylesheet" href="/styles/styles.css" />
+  </head>
+  <body>
+    <form action="" target="_blank" autocomplete="off" novalidate>
+      <label for="customer">Client Type</label><br />
+      <input
+        type="text"
+        id="customer"
+        name="customer"
+        value="Customer"
+        disabled
+      /><br /><br />
+
+      <label for="customerCode">Copy this Customer code</label><br />
+      <input
+        type="text"
+        id="customerCode"
+        name="customerCode"
+        value="Zcustomer"
+        readonly
+      /><br /><br />
+
+      <fieldset>
+        <legend>Customer's Details</legend>
+        <label for="firstName">Enter your first name:</label><br />
+        <input
+          type="text"
+          id="firstName"
+          name="firstName"
+          placeholder="First Name"
+          value="First Name"
+          autofocus
+        />
+        <br /><br />
+
+        <label for="lastName">Enter your last name:</label><br />
+        <input
+          type="text"
+          id="lastName"
+          name="lastName"
+          placeholder="Last Name"
+          value="Last Name"
+        />
+        <br /><br />
+
+        <label for="phoneNumber">Enter your Phone Number:</label><br />
+        <input
+          type="number"
+          id="phoneNumber"
+          name="phoneNumber"
+          placeholder="Phone Number"
+          value="Phone Number"
+          required
+        />
+        <br /><br />
+
+        <label for="emailAddress">Enter your email address:</label><br />
+        <input
+          type="emailAddress"
+          id="emailAddress"
+          name="emailAddress"
+          autocomplete="off"
+          size="50"
+        />
+        <br /><br />
+
+        <label for="password">Enter your account password:</label><br />
+        <input type="password" id="password" name="password" />
+        <br /><br />
+
+        <label for="countryCode">Input Country code:</label><br />
+        <input
+          type="text"
+          id="countryCode"
+          name="countryCode"
+          pattern="[A-Za-z]{3}"
+          title="Three letter country code"
+        />
+      </fieldset>
+
+      <section>
+        <p>Purchase Details</p>
+
+        <label for="purchaseDate">Purchase Date:</label><br />
+        <input type="date" id="purchaseDate" name="purchaseDate" />
+        <br /><br />
+
+        <p>Or select purchase date range</p>
+        <label for="datemin">Enter a date after 2022-10-22:</label>
+        <input type="date" id="datemin" name="datemin" min="2022-10-23" />
+
+        <label for="datemax">But enter a date before 2022-10-31:</label>
+        <input
+          type="date"
+          id="datemax"
+          name="datemax"
+          max="2022-10-30"
+        /><br /><br />
+
+        <p>Select item category</p>
+        <input list="categories" name="categories" />
+        <datalist id="categories">
+          <option value="Clothes"></option>
+          <option value="Accessories"></option>
+          <option value="Shoes"></option>
+          <option value="Bags"></option>
+          <option value="Makeup"></option>
+        </datalist>
+        <br /><br />
+
+        <label for="quantity"
+          >Quantity of goods purchased (Can only be between 1 and 5):</label
+        ><br />
+        <input
+          type="number"
+          id="quantity"
+          name="quantity"
+          min="1"
+          max="5"
+        /><br /><br />
+
+        <label for="files">Upload purchase summary and receipt</label><br />
+        <input type="file" id="files" name="files" multiple />
+      </section>
+      <br /><br />
+
+      <section>
+        <label for="cards">Choose your card type:</label><br />
+        <select id="cards" name="cards">
+          <option value="Verve">Verve</option>
+          <option value="Visa">Visa</option>
+          <option value="MasterCard" selected>MasterCard</option>
+          <option value="CouponCard">Coupon Card</option>
+        </select>
+        <br /><br />
+
+        <label for="pin">Enter Transaction Pin:</label><br />
+        <input type="text" id="pin" name="pin" maxlength="4" size="4" />
+      </section>
+      <br /><br />
+
+      <textarea name="message" rows="10" cols="30">
+Type in Purchase error here
+            </textarea
+      >
+      <br /><br />
+
+      <input type="checkbox" id="terms" name="terms" value="terms" />
+      <label for="terms">
+        I have read and accepted all terms and conditions</label
+      >
+      <br /><br />
+
+      <input
+        type="button"
+        onclick="alert('You will receive a response soon! Thank you!')"
+        value="Submit"
+      />
+    </form>
+  </body>
+</html>
