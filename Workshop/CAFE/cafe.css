@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/images/background-2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: cursive;
+}
+
+header {
+  color: #002855;
+  text-align: center;
+  background-color: #ffffff;
+  max-width: 300px;
+  margin: 30px auto;
+  border-radius: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: #002855;
+}
+
+.card {
+  background-color: white;
+  max-width: 300px;
+  margin: 8rem auto;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.card-body {
+  background-image: url(/images/coffee\ background.avif);
+}
+
+.shop-name {
+  border-bottom: 3px solid #002855;
+  text-align: center;
+  padding: 0.5rem;
+  color: #002855;
+  font-size: 25px;
+}
+
+.list-item:nth-child(1) {
+  padding-top: 5px;
+  color: rgb(139, 51, 51);
+}
+
+.list-item:last-child {
+  color: rgb(139, 51, 51);
+}
+
+.list-item {
+  padding: 1.5rem;
+  color: #002855;
+  font-weight: 700;
+}

@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/images/form-background3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: cursive;
+}
+
+header {
+  color: #002855;
+  text-align: center;
+  background-color: #ffffff;
+  max-width: 300px;
+  margin: 30px auto;
+  border-radius: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: #002855;
+}
+
+.details-form {
+  max-width: 300px;
+  margin: 2.8rem auto;
+  background-image: url(/images/form-background2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1rem;
+}
+
+.details {
+  color: #002855;
+  font-size: 17px;
+}
+
+.details.name {
+  color: #eaaa00;
+}
+
+.details.phone {
+  color: #eaaa00;
+}
+
+.details.hobbies {
+  color: #eaaa00;
+}
+
+.input-box {
+  background-color: #c6d3de;
+  border: 1px solid #c6d3de;
+  padding: 0.5rem;
+  width: 100%;
+}
+::placeholder {
+  color: #ffffff;
+  font-size: 14px;
+}
+.input-box:focus {
+  outline: none;
+}
+
+.button {
+  padding: 2rem 1rem 0 1rem;
+}
+
+.submit-button {
+  border: 0;
+  padding: 1rem;
+  border-radius: 70px;
+  text-decoration: none;
+  color: #002855;
+  font-size: 18px;
+  font-weight: 700;
+  width: 100%;
+  cursor: pointer;
+}
+.submit-button:hover {
+  background-color: #c6d3de;
+  font-size: 19px;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  color: #002855;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.footer-link {
+  padding: 0.2rem 1rem;
+  text-decoration: none;
+  color: rgb(98, 61, 146);
+  background-color: #ffffff;
+}
