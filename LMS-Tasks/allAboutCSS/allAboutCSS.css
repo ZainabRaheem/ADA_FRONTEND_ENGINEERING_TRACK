@@ -71,6 +71,10 @@ li {
   font-family: sans-serif;
 }
 
+.css-framework::after {
+  content: "✔️";
+}
+
 .footer {
   display: flex;
   justify-content: flex-end;
