@@ -1,0 +1,32 @@
+.workshop-heading {
+  color: rgb(0, 0, 255, 0.2);
+  /* padding: 10px; */
+  /* background-color: yellow; */
+}
+
+.hero {
+  /* background-color: red; */
+  /* border: 5px dashed rgb(0, 128, 0); */
+  /* border-width: 5px;
+  border-style: dashed;
+  border-color: rgb(0, 128, 0); */
+  border-radius: 8px;
+  /* margin: 50px; */
+  /* padding: 30px; */
+  outline: 10px solid green;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  border: 5px dashed pink;
+  border-radius: 50%;
+}
+
+div p {
+  /* background-color: red; */
+  text-transform: lowercase;
+  line-height: 1.5rem;
+  text-shadow: 2px 5px blue;
+}
