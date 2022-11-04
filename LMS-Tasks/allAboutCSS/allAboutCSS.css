@@ -60,8 +60,7 @@ ul {
   margin-bottom: 50px;
 }
 
-li {
-  font-size: 20px;
+li::marker {
   color: green;
 }
 
