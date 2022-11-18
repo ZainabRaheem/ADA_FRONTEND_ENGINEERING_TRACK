@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.transform-rotate {
+  background-color: red;
+  width: 150px;
+  height: 150px;
+  transform: rotate(50deg);
+}
+
+.transform-translate {
+  background-color: green;
+  width: 150px;
+  height: 150px;
+  /* transform: translate(30px, 100px); */
+}
+.transform-translate:hover {
+  transform: translate(30px, 100px);
+}
+
+.transform-scale {
+  background-color: blue;
+  width: 150px;
+  height: 150px;
+  transform: scale(1);
+}
+
+.transform-skew {
+  background-color: yellow;
+  width: 150px;
+  height: 150px;
+  transform: skew(30deg 40deg);
+}
+
+.transition {
+  background-color: yellow;
+  width: 150px;
+  height: 150px;
+  transition: height 3s;
+}
+
+.transition:hover {
+  height: 250px;
+  width: 300px;
+}
