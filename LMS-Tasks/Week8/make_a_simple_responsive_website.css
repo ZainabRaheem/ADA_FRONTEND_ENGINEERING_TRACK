@@ -9,8 +9,8 @@ body {
 
 [class*="col-"] {
   float: left;
-  padding: 15px;
-  border: 1px solid red;
+  padding: 2px;
+  border: 1px solid #002855;
 }
 
 /* for mobile view, width is 100% for all; */
@@ -94,18 +94,6 @@ h1 {
   h1 {
     font-size: 24px;
   }
-}
-
-@media screen and (min-width: 600px) {
-  .col-s-3 {
-    width: 25%;
-  }
-  .col-s-9 {
-    width: 75%;
-  }
-  .col-s-12 {
-    width: 100%;
-  }
 
   [class*="col-"] {
     float: left;
@@ -113,18 +101,18 @@ h1 {
   }
 }
 
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+
 /* extremely large screens */
-@media screen and (min-width: 1000px) {
-  body {
+@media screen and (min-width: 2560px) {
+  h1 {
     font-size: xx-large;
   }
-  .col-s-3 {
-    width: 25%;
-  }
-  .col-s-9 {
-    width: 75%;
-  }
-  .col-s-12 {
-    width: 100%;
+  .container {
+    margin-top: 100px;
   }
 }
